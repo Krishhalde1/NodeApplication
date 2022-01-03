@@ -107,7 +107,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-
+const port = 4000;
 app.listen(port, () => console.log("Backend : Server connected on port 4000"));
 
 module.exports = app;
