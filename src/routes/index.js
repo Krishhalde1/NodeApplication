@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 
-const varTitle = process.env.TITLE || 'NodeJS running on Cloud Foundry';
+const varTitle = process.env.TITLE || 'NodeJS application';
 const varMessage = process.env.MESSAGE || 'Hello world!';
 
 /* GET home page. */
